@@ -1,4 +1,18 @@
+import StrawberryProductCard from '@/components/StrawberryProductCard';
 import NewArrivals from '@/components/NewArrivals'
+import { TutorialGrid } from '@/components/TutorialGrid';
+import WatchProductCard from '@/components/WatchProductCard';
+import CustomBirthdayCakeCard from '@/components/CustomBirthdayCakeCard';
+import TableLampProductCard from '@/components/TableLampProductCard';
+import SummerHatProductCard from '@/components/SummerHatProductCard';
+import LuxuryWaterfallTapsCard from '@/components/LuxuryWaterfallTapsCard';
+import SummerPoloProductCard from '@/components/SummerPoloProductCard';
+import CargoPantsProductPage from '@/components/CargoPantsProductPage';
+import LuxuryShowerTapProductPage from '@/components/LuxuryShowerTapProductPage';
+import { Toaster } from '@/components/ui/toaster';
+import EcommerceStore from '@/components/EcommerceStore';
+import EcommerceStoreTwo from '@/components/EcommerceStoreTwo';
+import ClothingStore from '@/components/ClothingStore';
 
 const products = [
   {
@@ -60,14 +74,26 @@ const products = [
 
 
 
-
-
-
 export default async function Home() {
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <NewArrivals products={products} />
+    <div
+    // className="min-h-screen min-w-screen flex items-center justify-center bg-gray-100 bg-gradient-to-r from-blue-200 via-blue-300 
+    // to-blue-500  p-8 rounded-lg shadow-lg text-white"
+    >
+      {/* <WatchProductCard /> */}
+      {/* <CustomBirthdayCakeCard /> */}
+      {/* <TableLampProductCard /> */}
+      {/* <SummerHatProductCard /> */}
+      {/* <LuxuryWaterfallTapsCard /> */}
+      {/* <SummerPoloProductCard /> */}
+      {/* <CargoPantsProductPage /> */}
+      {/* <LuxuryShowerTapProductPage /> 
+            <Toaster />*/}
+      {/* <EcommerceStore /> */}
+      {/* <EcommerceStoreTwo /> */}
+      <ClothingStore />
+
     </div>
   )
 }
